@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font: 300 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 25px 0;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 38px;
+    font-style: unset;
+}
+
+.tesla_container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.tesla_container h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.tesla_text {
+    margin: 0 auto;
+    width: 66%;
+    min-height: 350px;
+    background-image: url(../img/tesla.472d2fe2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tesla_posit {
+    height: 247px;
+    width: 555px;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.tesla-wheel {
+    height: 80px;
+    width: 80px;
+    bottom: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.left {
+    left: 7%
+}
+
+.tesla_ball {
+    background-image: url(../img/wheel-19.000182ec.png);
+    animation: spinning .25s steps(6) infinite;
+}
+
+@keyframes spinning {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
+
+.left2 {
+    left: 70%;
+
+}
+
+.tesla_ball2 {
+    background-image: url(../img/wheel-19.000182ec.png);
+    animation: spinning2 .25s steps(6) infinite;
+}
+
+@keyframes spinning2 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
+
+.tesla_run ul li {
+    display: inline-block;
+    width: 130px;
+    position: relative;
+}
+
+.tesla_run {
+    margin: -70px 0 30px;
+}
+
+.tesla_run ul li p {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "RobotoNormal";
+    display: block;
+    padding: 0 18px 0 0;
+    position: relative;
+    color: #008dff;
+    text-align: right;
+}
+
+.tesla_run ul li p:after {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "RobotoNormal";
+    content: "MI";
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.tesla_img {
+    height: 20px;
+    background-size: auto 13px;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+}
+
+.tes_la_60 {
+    background-image: url(../img/60.9c9626af.svg);
+}
+
+.tes_la_60d {
+    background-image: url(../img/60d.3658a79e.svg);
+}
+
+.tes_la_75 {
+    background-image: url(../img/75.81db1754.svg);
+}
+
+.tes_la_75d {
+    background-image: url(../img/75d.4f8bb511.svg);
+}
+
+.tes_la_90d {
+    background-image: url(../img/90d.0d20113e.svg);
+}
+
+.tes_la_p100d {
+    background-image: url(../img/p100d.405cff92.svg);
+}
+
+.mph_tesla {
+    float: left;
+    width: 325px;
+}
+
+.tesla_mph_text {
+    letter-spacing: 2px;
+    font-size: 16px;
+    width: 73%;
+}
+
+.mph_speed {
+    margin-left: 87px;
+    margin-top: 10px;
+    width: 62%;
+}
+
+.mph_speed2 {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    border: 1px solid #ccc;
+    display: flex;
+    padding: 18px 0 0 30px;
+    margin: 0 8px 0 0;
+    background-color: #f7f7f7;
+    background-position: 24.21053% 9px;
+    background-repeat: no-repeat;
+    background-size: 44px;
+}
+
+.mph_speed_p {
+    font-family: "RobotoNormal";
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    position: relative;
+}
+
+.mph_speed2 span {
+    margin-left: 5px;
+}
+
+.tesla_counter__cont {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -70px;
+    top: -4px;
+}
+
+.tesla_counter__cont button:first-child {
+    border-bottom: 1px solid #fff;
+    background-image: url(../img/up.d9d26f1c.svg);
+    height: 17px;
+    margin-top: -5px;
+    width: 35px;
+    background-repeat: no-repeat;
+}
+
+.tesla_counter__cont button:last-child {
+    margin-top: 10px;
+    border-bottom: 1px solid #fff;
+    background-image: url(../img/down.731fd697.svg);
+    height: 17px;
+    width: 35px;
+    background-repeat: no-repeat;
+}
+
+.tesla_temperature {
+    float: left;
+    width: 32%;
+
+    padding: 0 40px;
+    margin: 0 40px 0 0;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.tesla_temp {
+    float: left;
+    width: 310px;
+}
+
+.tesla-clim {
+    float: left;
+}
+.tesla_climate_icon2 {
+    display: none;
+    background-image: url(../img/heat-off.d6b24067.svg);
+}
+.show{
+    display: flex;
+}
+
+.tesla_climate_icon {
+    display: flex;
+    width: 46px;
+    height: 35px;
+    margin-top: 17px;
+    position: relative;
+    left: 10px;
+}
+
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    left: -258px;
+    top: 32px;
+    height: 24px;
+    margin: 10px;
+}
+
+.toggle-switch p {
+    margin-top: -23px;
+    width: 357%;
+    margin-left: -15px;
+}
+
+.toggle-switch .toggle-input {
+    display: none;
+}
+
+.toggle-switch .toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 24px;
+    background-color: #2196F3;
+    border-radius: 34px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.toggle-switch .toggle-label::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+
+.toggle-switch .toggle-input:checked+.toggle-label {
+    background-color: #4CAF50;
+}
+
+.toggle-switch .toggle-input:checked+.toggle-label::before {
+    transform: translateX(16px);
+}
+
+
+.toggle-switch.light .toggle-label {
+    background-color: #BEBEBE;
+}
+
+.toggle-switch.light .toggle-input:checked+.toggle-label {
+    background-color: #9B9B9B;
+}
+
+.toggle-switch.light .toggle-input:checked+.toggle-label::before {
+    transform: translateX(6px);
+}
+
+
+.toggle-switch.dark .toggle-label {
+    background-color: #4B4B4B;
+}
+
+.toggle-switch.dark .toggle-input:checked+.toggle-label {
+    background-color: #717171;
+}
+
+.toggle-switch.dark .toggle-input:checked+.toggle-label::before {
+    transform: translateX(16px);
+}
