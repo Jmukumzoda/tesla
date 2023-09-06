@@ -54,5 +54,5 @@ down2_button.onclick = () => {
 let on = document.querySelector('.toggle-switch')
 let off = document.querySelector('.remove')
 on.onclick = () => {
-    on.classList.add('remove')
+    on.classList.add('.remove')
 }
