@@ -119,18 +119,14 @@ header h1 {
     display: block;
     padding: 0 18px 0 0;
     position: relative;
-    color: #008dff;
     text-align: right;
+    width: 131%;
 }
-
-.tesla_run ul li p:after {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "RobotoNormal";
-    content: "MI";
-    position: absolute;
-    top: 8px;
-    right: 0;
+.tesla_run ul{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 100px;
 }
 
 .tesla_img {
@@ -268,7 +264,21 @@ header h1 {
     left: 10px;
 }
 
-
+.remove{
+    color: #2196F3;
+    background: #2196F3;
+    border-radius: 10px;
+}
+.remove::after{
+    content: "";
+    color:#4CAF50 ;
+    background: #4CAF50;
+}
+.remove::before{
+    content: "";
+    color:#4CAF50 ;
+    background: #4CAF50;
+}
 .toggle-switch {
     position: relative;
     display: inline-block;
