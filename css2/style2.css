@@ -20,6 +20,7 @@
 img {
     margin-left: 13%;
     width: 70%;
+    height: 410px;
 }
 
 .tesla_run {
@@ -58,21 +59,116 @@ img {
     color: #707070;
 }
 
-.bl {
+.black {
     border-radius: 100%;
     background-color: black;
     width: 135%;
     height: 23px;
 }
-.gr{
+.grey{
     border-radius: 100%;
     background-color: whitesmoke;
     width: 135%;
     height: 23px;
 }
-.dg{
+.dark_gre{
     border-radius: 100%;
     background-color: wheat;
     width: 135%;
     height: 23px;
+}
+.remove{
+    color: #2196F3;
+    background: #2196F3;
+    border-radius: 10px;
+}
+.remove::after{
+    content: "";
+    color:#4CAF50 ;
+    background: #4CAF50;
+}
+.remove::before{
+    content: "";
+    color:#4CAF50 ;
+    background: #4CAF50;
+}
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    left: 707px;
+    top: -100px;
+    height: 24px;
+    margin: 10px;
+}
+
+.toggle-switch p {
+    margin-top: -23px;
+    width: 357%;
+    margin-left: -15px;
+}
+
+.toggle-switch .toggle-input {
+    display: none;
+}
+
+.toggle-switch .toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 24px;
+    background-color: #2196F3;
+    border-radius: 34px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.toggle-switch .toggle-label::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+
+.toggle-switch .toggle-input:checked+.toggle-label {
+    background-color: #4CAF50;
+}
+
+.toggle-switch .toggle-input:checked+.toggle-label::before {
+    transform: translateX(16px);
+}
+
+
+.toggle-switch.light .toggle-label {
+    background-color: #BEBEBE;
+}
+
+.toggle-switch.light .toggle-input:checked+.toggle-label {
+    background-color: #9B9B9B;
+}
+
+.toggle-switch.light .toggle-input:checked+.toggle-label::before {
+    transform: translateX(6px);
+}
+
+
+.toggle-switch.dark .toggle-label {
+    background-color: #4B4B4B;
+}
+
+.toggle-switch.dark .toggle-input:checked+.toggle-label {
+    background-color: #717171;
+}
+
+.toggle-switch.dark .toggle-input:checked+.toggle-label::before {
+    transform: translateX(16px);
 }
